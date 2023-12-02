@@ -5,6 +5,7 @@ import Login from './auth/Login';
 import Register from './auth/Register';
 import Home from './home/Home';
 import Profile from './user/Profile';
+import Gallery from './gallery/Gallery';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,8 +15,9 @@ function App() {
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-          <Route path="/profile" element={<Profile/>} />
+        <Route path="/profile" element={<Profile/>} />
         <Route path="/" element={<Home/>} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
   );
