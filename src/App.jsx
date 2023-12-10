@@ -6,6 +6,7 @@ import Register from './auth/Register';
 import Home from './home/Home';
 import Profile from './user/Profile';
 import Gallery from './gallery/Gallery';
+import Display from './gallery/Display';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
         <Route path="/profile" element={<Profile/>} />
         <Route path="/" element={<Home/>} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/galleryDisplay" element={<Display />} />
       </Routes>
     </Router>
   );

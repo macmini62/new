@@ -1,6 +1,6 @@
 
 // Completed Projects Database.
-export default CompletedProjects = [
+const CompletedProjects = [
     {
         key: 1,
         id: false,
@@ -54,3 +54,5 @@ export default CompletedProjects = [
 ]
 
 
+
+export default CompletedProjects
